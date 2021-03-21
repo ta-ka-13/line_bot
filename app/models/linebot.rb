@@ -1,0 +1,2 @@
+class Linebot < ApplicationRecord
+end

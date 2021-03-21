@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @linebot.title %>
+</p>
+
+<p>
+  <strong>Body:</strong>
+  <%= @linebot.body %>
+</p>
+
+<%= link_to 'Edit', edit_linebot_path(@linebot) %> |
+<%= link_to 'Back', linebots_path %>
