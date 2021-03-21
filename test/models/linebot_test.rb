@@ -1,6 +1,6 @@
 require "test_helper"
 
-class LinebotControllerTest < ActionDispatch::IntegrationTest
+class LinebotTest < ActiveSupport::TestCase
   # test "the truth" do
   #   assert true
   # end
