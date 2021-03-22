@@ -48,8 +48,12 @@ test:
 # Read https://guides.rubyonrails.org/configuring.html#configuring-a-database
 # for a full overview on how database connection configuration can be specified.
 #
+  # database: line_bot_production
+  # username: line_bot
+  # password: <%= ENV['LINE_BOT_DATABASE_PASSWORD'] %>
+
 production:
   <<: *default
-  database: line_bot_production
-  username: line_bot
-  password: <%= ENV['LINE_BOT_DATABASE_PASSWORD'] %>
+  adapter: postgresql
+  encoding: unicode
+  pool: 5
