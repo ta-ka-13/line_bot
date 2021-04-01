@@ -32,7 +32,7 @@ events.each{ |event|
   elsif event.message['text'].include?("テストテストテスト")
     response = "アンサー3"
   elsif event.message['text'].include?("テストテストテストテスト")
-    response = "アンサー4" * 50
+    response = "アンサー4"
   else
     response = @post.name
   end
