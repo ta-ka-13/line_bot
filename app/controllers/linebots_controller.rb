@@ -1,5 +1,5 @@
 class LinebotsController < ApplicationController
-  before_action :set_linebot, only: %i[ show edit update destroy ]
+  # before_action :set_linebot, only: %i[ show edit update destroy ]
 
 require 'line/bot'
 
